@@ -1,8 +1,7 @@
-import { BaseQueryFn, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react"
-import { RootState } from "../store/store"
-import axios, { AxiosRequestConfig, AxiosError } from "axios"
+import {fetchBaseQuery} from "@reduxjs/toolkit/dist/query/react"
+import {RootState} from "../store/store"
 
-const baseUrl = "/api" || "https://api.crm.advaice.com" || process.env.NEXT_PUBLIC_BASE_URL
+const baseUrl = "/api"
 
 // const baseQuery = (): BaseQueryFn<
 //     {
